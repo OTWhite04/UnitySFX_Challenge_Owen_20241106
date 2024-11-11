@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AudioModule;
 
 public class NewBehaviourScript1 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public AudioClip
+
+
     void Start()
     {
-        
+         void Play();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        
+         void Pause();
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+         void Pause();
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+         void UnPause();
     }
 }
