@@ -1,30 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AudioModule;
+
 
 public class NewBehaviourScript1 : MonoBehaviour
 {
-    public AudioClip
+    public AudioSource AudioSource;
 
-
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-         void Play();
+        if (other.CompareTag("Player"))
+        {
+            AudioSource.Pause();
+        }
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-         void Pause();
+        if (other.CompareTag("Player"))
+        {
+            AudioSource.Unpause();
+        }
     }
 
-    void OnTriggerStay(Collider other)
-    {
-         void Pause();
-    }
 
-    void OnTriggerExit(Collider other)
-    {
-         void UnPause();
-    }
+
+
+
 }

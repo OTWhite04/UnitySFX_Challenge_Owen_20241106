@@ -5,16 +5,18 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    public AudioClip
-    // Start is called before the first frame update
+    public AudioSource AudioSource;
+  
+   
     void Start()
     {
         
     }
-
+    
+    
     public void OnTriggerEnter(Collider other)
     {
-       void Play();
+       AudioSource Play(ulong delay = 0);
     }
 
 

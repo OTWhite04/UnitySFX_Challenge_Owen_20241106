@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 200086187}
   - component: {fileID: 200086186}
   m_Layer: 0
-  m_Name: '2D Speaker Box '
+  m_Name: 'Play & Pause Speaker Box '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 403982595}
   - component: {fileID: 403982594}
   m_Layer: 0
-  m_Name: 2D Trigger
+  m_Name: Play & Pause Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 426636292}
   - component: {fileID: 426636291}
   m_Layer: 0
-  m_Name: '2D Speaker '
+  m_Name: 'Play & Pause Speaker '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -832,7 +832,7 @@ Transform:
   - {fileID: 531007630}
   - {fileID: 1272589970}
   - {fileID: 1613013183}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 938803800}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &618266005
 GameObject:
@@ -1388,7 +1388,7 @@ GameObject:
   - component: {fileID: 822804931}
   - component: {fileID: 822804930}
   m_Layer: 0
-  m_Name: '2D Speaker Lining '
+  m_Name: 'Play & Pause Speaker Lining '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1615,7 +1615,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1641502980}
+  - {fileID: 590875583}
+  - {fileID: 1753745605}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1179222580
@@ -1862,7 +1865,7 @@ GameObject:
   - component: {fileID: 1277962712}
   - component: {fileID: 1277962713}
   m_Layer: 0
-  m_Name: 2D Audio Source
+  m_Name: Play & Pause Audio Source
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2739,7 +2742,7 @@ Transform:
   - {fileID: 618266006}
   - {fileID: 1946843935}
   - {fileID: 732291039}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 938803800}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1753745604
 GameObject:
@@ -2775,7 +2778,7 @@ Transform:
   - {fileID: 426636290}
   - {fileID: 1277962712}
   - {fileID: 403982593}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 938803800}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1934520742
 GameObject:
@@ -2926,7 +2929,4 @@ SceneRoots:
   - {fileID: 1448205085}
   - {fileID: 518535592}
   - {fileID: 1934520743}
-  - {fileID: 1641502980}
-  - {fileID: 590875583}
-  - {fileID: 1753745605}
   - {fileID: 938803800}
